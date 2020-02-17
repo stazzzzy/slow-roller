@@ -1,9 +1,9 @@
 #T. Staso
 import random
-from graphics import *
+from lib.graphics import *
 
 def timer():
-    slow = 100
+    slow = 10000
     for x in range(slow):
         x=x
 def timer2():
@@ -42,7 +42,7 @@ def colorPicker():
  
 win = GraphWin("Game",655,700)
 win.setBackground("#3d4a4c")
-img = Image(Point(327.5,350),"back.gif")
+img = Image(Point(327.5,350),"lib/back.gif")
 img.draw(win)
 
 balance = 1000
